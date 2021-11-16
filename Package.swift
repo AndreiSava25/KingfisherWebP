@@ -8,7 +8,7 @@ let package = Package(
     platforms: [.iOS(.v12), .tvOS(.v12), .watchOS(.v5), .macOS(.v10_14)], 
     products: [
         .library(name: "KingfisherWebP", targets: ["KingfisherWebP"]),
-        .library(name: "KingfisherWebP-ObjC", targets: ["KingfisherWebP-ObjC"])
+        .library(name: "KingfisherWebP_ObjC", targets: ["KingfisherWebP_ObjC"])
     ],
     dependencies: [
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.0.0"),
@@ -16,16 +16,16 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "KingfisherWebP-ObjC",
+            name: "KingfisherWebP_ObjC",
             dependencies: ["libwebp"],
-            path: "KingfisherWebP-ObjC",
+            path: "KingfisherWebP_ObjC",
             cSettings: [
-                .headerSearchPath("KingfisherWebP-ObjC/include"),
+                .headerSearchPath("KingfisherWebP_ObjC/include"),
             ]
         ),
         .target(
             name: "KingfisherWebP",
-            dependencies: ["Kingfisher", "KingfisherWebP-ObjC"],
+            dependencies: ["Kingfisher", "KingfisherWebP_ObjC"],
             path: "Sources"
         )
     ]

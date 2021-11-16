@@ -85,7 +85,7 @@
 		38E23F152591B68900EBE21D = {
 			isa = PBXGroup;
 			children = (
-				E4AA47972743A93E009ECB0D /* KingfisherWebP-ObjC */,
+				E4AA47972743A93E009ECB0D /* KingfisherWebP_ObjC */,
 				38E23F212591B68900EBE21D /* Sources */,
 				38E23F2C2591B68900EBE21D /* Tests */,
 				38E23F202591B68900EBE21D /* Products */,
@@ -139,13 +139,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		E4AA47972743A93E009ECB0D /* KingfisherWebP-ObjC */ = {
+		E4AA47972743A93E009ECB0D /* KingfisherWebP_ObjC */ = {
 			isa = PBXGroup;
 			children = (
 				E4AA47992743A9A6009ECB0D /* CGImage+WebP.m */,
 				E4AA47982743A956009ECB0D /* include */,
 			);
-			path = "KingfisherWebP-ObjC";
+			path = KingfisherWebP_ObjC;
 			sourceTree = "<group>";
 		};
 		E4AA47982743A956009ECB0D /* include */ = {
