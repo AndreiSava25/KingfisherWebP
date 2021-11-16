@@ -22,12 +22,12 @@ let package = Package(
             cSettings: [
                 .headerSearchPath("KingfisherWebP-ObjC/include"),
             ]
-        )
+        ),
         .target(
             name: "KingfisherWebP",
             dependencies: ["Kingfisher", "KingfisherWebP-ObjC"],
             path: "Sources",
             exclude: ["KingfisherWebP-ObjC"]
-        ),
+        )
     ]
 )
