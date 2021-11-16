@@ -14,4 +14,8 @@ FOUNDATION_EXPORT double KingfisherWebPVersionNumber;
 FOUNDATION_EXPORT const unsigned char KingfisherWebPVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <KingfisherWebP/PublicHeader.h>
+#if SWIFT_PACKAGE
+#import "CGImage+WebP.h"
+#else
 #import <KingfisherWebP/CGImage+WebP.h>
+#endif
