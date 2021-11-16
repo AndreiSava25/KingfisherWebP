@@ -25,6 +25,7 @@
 		38E23FB72591C39C00EBE21D /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38E23FAF2591C39C00EBE21D /* animation.gif */; };
 		E4AA479A2743A9A6009ECB0D /* CGImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AA47992743A9A6009ECB0D /* CGImage+WebP.m */; };
 		E4AA479C2743A9B4009ECB0D /* CGImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = E4AA479B2743A9B4009ECB0D /* CGImage+WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4AA47A12743B58E009ECB0D /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AA47A02743B58E009ECB0D /* Exports.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		38E23FAF2591C39C00EBE21D /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
 		E4AA47992743A9A6009ECB0D /* CGImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImage+WebP.m"; sourceTree = "<group>"; };
 		E4AA479B2743A9B4009ECB0D /* CGImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImage+WebP.h"; sourceTree = "<group>"; };
+		E4AA47A02743B58E009ECB0D /* Exports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		38E23F212591B68900EBE21D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E4AA47A02743B58E009ECB0D /* Exports.swift */,
 				38E23F222591B68900EBE21D /* KingfisherWebP.h */,
 				38E23F422591B75200EBE21D /* Image+WebP.swift */,
 				38E23F412591B75200EBE21D /* WebPProcessor.swift */,
@@ -283,6 +286,7 @@
 				38E23F442591B75200EBE21D /* WebPProcessor.swift in Sources */,
 				38E23F432591B75200EBE21D /* WebPSerializer.swift in Sources */,
 				E4AA479A2743A9A6009ECB0D /* CGImage+WebP.m in Sources */,
+				E4AA47A12743B58E009ECB0D /* Exports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
